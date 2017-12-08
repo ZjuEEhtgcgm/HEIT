@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>    <!--按钮点击事件暂时写在了MainActivity里，可能错了-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8e0e8">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher">
+
+        <Button
+            android:id="@+id/title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@mipmap/ic_launcher"
+            android:text="返回"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="智能家居市场实时信息"
+            android:textColor="#fff"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="当前智能家居越来越普遍，智能家居市场越来越强大。但是目前智能家居市场比较复杂，所以怎样统一管理是将来必须解决的问题。我们设想的这样一个提供智能家居市场信息的网站或者软件，可以在一定程度上解决市场混乱问题。"/>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>    <!--按钮点击事件暂时写在了MainActivity里，可能错了-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8e0e8">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher">
+
+        <Button
+            android:id="@+id/title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@mipmap/ic_launcher"
+            android:text="返回"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="智能家居市场实时信息"
+            android:textColor="#fff"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="近年来，世界各地能源问题日趋严重，全球各国都在积极努力平衡本国的能源需求，最重要的策略在于如何节约能源以及提升能源使用效率。随着智能电网的提出，家庭科学用电已经越来越受到重视。通过软件可以实现对智能家居的使用情况进行实时分析，同时给用户提出更加优化的用电方案，从而实现科学用电的目标。"/>
+</LinearLayout>
